@@ -38,9 +38,9 @@ session_start();
                   <a href="order_checkout.php"><h2><span  class="glyphicon glyphicon-shopping-cart" style="color:white;" ></span></h2>
                       <?php
                       if(isset($_SESSION['total']))
-                          echo $_SESSION['count']."ITEMS-Php".$_SESSION['total'];
+                          echo $_SESSION['count']."ITEMS-Ksh".$_SESSION['total'];
                       else
-                          echo "0ITEMS-Php0";
+                          echo "0ITEMS-Ksh0";
                       ?>
                   </a>
               </li>
