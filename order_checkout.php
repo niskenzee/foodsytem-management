@@ -73,7 +73,7 @@ if(isset($_SESSION["cart_item"])){
                     }
                     ?>
                     <tr>
-                        <td colspan="5" align=right><strong>Total:</strong> <?php echo "Php".$item_total; ?></td>
+                        <td colspan="5" align=right><strong>Total:</strong> <?php echo "Ksh".$item_total; ?></td>
                     </tr>
                     <tr>
                         <td><a href="order_online.php" class="btn btn-primary pull-right">Add Another Order</a> </td>

@@ -57,7 +57,7 @@ $row3=mysqli_fetch_array($result3);
               }
               ?>
               <tr>
-                  <td><strong>Total</strong><span class="badge">Php<?php echo $row3[0];?></span></td>
+                  <td><strong>Total</strong><span class="badge">Ksh<?php echo $row3[0];?></span></td>
               </tr>
               </tbody>
           </table>
