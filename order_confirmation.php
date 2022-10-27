@@ -66,7 +66,7 @@ $row3=mysqli_fetch_array($result3);
         <h4>Address: <?php echo $row1[4].", ".ucfirst($row1[5])." ".strtoupper($row1[6]) ?></h4>
         <div class="alert alert-info">
             <strong>
-                <h4>Your order will be delivered to your address in 30-40 minutes approx. Please keep <u>Php<?php echo $row3[0];?></u> ready.</h4>
+                <h4>Your order will be delivered to your address in 30-40 minutes approx. Please keep <u>Ksh<?php echo $row3[0];?></u> ready.</h4>
             </strong>
         </div>
         <a href="order_online.php">Place another order</a>
